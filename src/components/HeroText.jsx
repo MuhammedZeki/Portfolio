@@ -1,4 +1,5 @@
 import { FlipWords } from "./FlipWords";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react";
 
 const HeroText = () => {
