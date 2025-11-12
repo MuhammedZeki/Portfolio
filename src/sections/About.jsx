@@ -3,29 +3,40 @@ import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
-
+import { HiDownload } from "react-icons/hi";
 const About = () => {
   const grid2Container = useRef();
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/GüncelCv.pdf";
+    link.download = "Muhammed-Zeki-CV.pdf";
+    link.click();
+  };
   return (
     <section className="c-space section-spacing" id="about">
       <h2 className="text-heading">About Me</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
-        {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
           <img
             src="assets/coding-pov.png"
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
-          <div className="z-10">
+          <div className="z-10 ">
             <p className="headtext">Hi, I'm Muhammed Zeki Yılmaz</p>
             <p className="subtext">
               Over the last 2 years, I developed my frontend and backend dev
               skills to deliver dynamic and software and web applications.
             </p>
+            <button
+              onClick={handleDownload}
+              className="px-4 flex items-center justify-center gap-1 mt-1 cursor-pointer py-3 rounded-lg tracking-[-0.2px] leading-[120%] transform duration-300 bg-[#596cbb] hover:bg-[#6779c2] text-white"
+            >
+              Download CV
+              <HiDownload className="w-5 -mt-0.5 h-5 text-white " />
+            </button>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
-        {/* Grid 2 */}
         <div className="grid-default-color grid-2">
           <div
             ref={grid2Container}

@@ -14,7 +14,7 @@ function Navigation() {
     <ul className="nav-ul">
       <li className="nav-li">
         <a
-          className="nav-link"
+          className="nav-link "
           href="#home"
           onClick={(e) => handleClick(e, "home")}
         >
@@ -60,7 +60,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
             href="/"
-            className="text-xl flex items-center gap-2 font-bold transition-colors text-neutral-400 hover:text-white"
+            className="text-xl font-source tracking-[0.1rem] flex items-center gap-2 font-bold transition-colors text-neutral-400 hover:text-white"
           >
             <img src="/vite.svg" alt="logo" className="w-[60px] h-[60px]" />
             imZeki
