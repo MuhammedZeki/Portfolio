@@ -2,31 +2,56 @@ import { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react";
 function Navigation() {
+  const handleClick = (e, targetId) => {
+    e.preventDefault();
+    const target = document.getElementById(targetId);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="#home">
+        <a
+          className="nav-link"
+          href="#home"
+          onClick={(e) => handleClick(e, "home")}
+        >
           Home
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#about">
+        <a
+          className="nav-link"
+          href="#about"
+          onClick={(e) => handleClick(e, "about")}
+        >
           About
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
+        <a
+          className="nav-link"
+          href="#work"
+          onClick={(e) => handleClick(e, "work")}
+        >
           Work
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#contact">
+        <a
+          className="nav-link"
+          href="#contact"
+          onClick={(e) => handleClick(e, "contact")}
+        >
           Contact
         </a>
       </li>
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (

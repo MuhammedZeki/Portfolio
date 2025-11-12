@@ -56,28 +56,24 @@ export const myProjects = [
     demo: "",
     image: "/assets/projects/advanced-auth.png",
     tags: [
+
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
-        id: 3,
+        id: 2,
         name: "NodeJs",
         path: "/assets/logos/node.svg",
       },
       {
-        id: 4,
+        id: 3,
         name: "MongoDB",
         path: "/assets/logos/mongodb.svg",
       },
       {
-        id: 5,
+        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
@@ -120,11 +116,6 @@ export const myProjects = [
         id: 4,
         name: "Javascript",
         path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 4,
-        name: "MongoDb",
-        path: "/assets/logos/mongodb.svg",
       },
     ],
   },

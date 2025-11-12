@@ -41,14 +41,14 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <div className="flex items-center gap-5">
+            <div className="flex flex-col lg:flex lg:flex-row lg:items-center gap-5">
               {demo && (
                 <a
                   href={demo}
                   target="_blank"
                   className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
                 >
-                  Live Demo <img src="assets/arrow-up.svg" className="size-4" />
+                  Live Demo <img src="assets/arrow-up.svg" className="size-6" />
                 </a>
               )}
               <a

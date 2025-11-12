@@ -11,7 +11,6 @@ export function Frameworks() {
     "mongodb",
     "github",
     "redux",
-    "mysql",
     "nextjs",
     "typescript",
     "firebase",
