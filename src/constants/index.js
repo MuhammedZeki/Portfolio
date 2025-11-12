@@ -12,6 +12,7 @@ export const myProjects = [
       "Libraries used in the project: antd, axios, react, react-dom, react-quill, react-redux, react-router-dom, react-slick, recharts, slick-carousel.",
     ],
     href: "https://github.com/MuhammedZeki/E-Commers",
+    demo: "",
     logo: "",
     image: "/assets/projects/e-commers.png",
     tags: [
@@ -52,6 +53,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MuhammedZeki/Mern-Advanced-Auth",
     logo: "",
+    demo: "",
     image: "/assets/projects/advanced-auth.png",
     tags: [
       {
@@ -96,6 +98,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MuhammedZeki/Chat-App",
     logo: "",
+    demo: "",
     image: "/assets/projects/chatapp.png",
     tags: [
       {
@@ -139,6 +142,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MuhammedZeki/Note-taking-App",
     logo: "",
+    demo: "https://zekiwithnoteapp.netlify.app/",
     image: "/assets/projects/noteapp.png",
     tags: [
       {
@@ -176,6 +180,7 @@ export const myProjects = [
       "Development tools used: @eslint/js, @types/react, @types/react-dom, @vitejs/plugin-react, cypress, eslint, eslint-plugin-react-hooks, vite.",
     ],
     href: "https://github.com/MuhammedZeki/WeatherApp",
+    demo: "https://weatherstream.netlify.app/",
     logo: "",
     image: "/assets/projects/weatherapp.png",
     tags: [
@@ -214,6 +219,7 @@ export const myProjects = [
     ],
     href: "https://github.com/MuhammedZeki/NextJs-Food-Ordering",
     logo: "",
+    demo: "",
     image: "/assets/projects/nextjs-food.png",
     tags: [
       {
@@ -251,6 +257,7 @@ export const myProjects = [
       "Libraries used in the project: framer-motion, lucide-react, react, react-dom, react-router-dom, recharts.",
     ],
     href: "https://github.com/MuhammedZeki/Admin-Dashboard",
+    demo: "https://zekiwithdashboard.netlify.app/",
     logo: "",
     image: "/assets/projects/admin-das.png",
     tags: [

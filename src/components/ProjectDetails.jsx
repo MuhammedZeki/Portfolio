@@ -8,6 +8,7 @@ const ProjectDetails = ({
   tags,
   href,
   closeModal,
+  demo,
 }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
@@ -40,10 +41,24 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
-              View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4" href={href} />
-            </a>
+            <div className="flex items-center gap-5">
+              {demo && (
+                <a
+                  href={demo}
+                  target="_blank"
+                  className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+                >
+                  Live Demo <img src="assets/arrow-up.svg" className="size-4" />
+                </a>
+              )}
+              <a
+                href={href}
+                target="_blank"
+                className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+              >
+                Github <img src="assets/logos/github.svg" className="size-6" />
+              </a>
+            </div>
           </div>
         </div>
       </motion.div>

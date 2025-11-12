@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
 
 const Project = ({
@@ -9,6 +9,7 @@ const Project = ({
   image,
   tags,
   setPreview,
+  demo,
 }) => {
   const [isHidden, setIsHidden] = useState(false);
   return (
@@ -43,6 +44,7 @@ const Project = ({
           image={image}
           tags={tags}
           href={href}
+          demo={demo}
           closeModal={() => setIsHidden(false)}
         />
       )}
