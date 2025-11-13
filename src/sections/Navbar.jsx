@@ -1,20 +1,23 @@
 import { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react";
-function Navigation() {
+
+function Navigation({ onLinkClick }) {
   const handleClick = (e, targetId) => {
     e.preventDefault();
     const target = document.getElementById(targetId);
     if (target) {
       target.scrollIntoView({ behavior: "smooth" });
     }
+
+    if (onLinkClick) onLinkClick();
   };
 
   return (
     <ul className="nav-ul">
       <li className="nav-li">
         <a
-          className="nav-link "
+          className="nav-link"
           href="#home"
           onClick={(e) => handleClick(e, "home")}
         >
@@ -63,6 +66,7 @@ function Navigation() {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
       <div className="mx-auto c-space max-w-7xl">
@@ -74,6 +78,7 @@ const Navbar = () => {
             <img src="/vite.svg" alt="logo" className="w-[60px] h-[60px]" />
             imZeki
           </a>
+
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
@@ -84,21 +89,22 @@ const Navbar = () => {
               alt="toggle"
             />
           </button>
+
           <nav className="hidden sm:flex">
             <Navigation />
           </nav>
         </div>
       </div>
+
       {isOpen && (
         <motion.div
           className="block overflow-hidden text-center sm:hidden"
           initial={{ opacity: 0, x: -10 }}
           animate={{ opacity: 1, x: 0 }}
-          style={{ maxHeight: "100vh" }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.5 }}
         >
           <nav className="pb-5">
-            <Navigation />
+            <Navigation onLinkClick={() => setIsOpen(false)} />
           </nav>
         </motion.div>
       )}
