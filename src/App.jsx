@@ -1,4 +1,5 @@
 import "./App.css";
+import ScrollToTop from "./components/ScrollToTop";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Experiences from "./sections/Experiences";
@@ -16,6 +17,7 @@ const App = () => {
       <Experiences />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

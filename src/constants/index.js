@@ -273,9 +273,9 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "Linkedin",
-    href: "https://www.linkedin.com/in/muhammedzeki/",
-    icon: "/assets/socials/linkedIn.svg",
+    name: "Instagram",
+    href: "https://www.instagram.com/muhammedzeki__/",
+    icon: "/assets/socials/instagram.svg",
   },
   {
     name: "Github",
@@ -283,19 +283,19 @@ export const mySocials = [
     icon: "/assets/logos/github.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/muhammedzeki__/",
-    icon: "/assets/socials/instagram.svg",
+    name: "Linkedin",
+    href: "https://www.linkedin.com/in/muhammedzeki/",
+    icon: "/assets/socials/linkedIn.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Intern / Software Developer",
+    title: "Intern / FrontEnd Developer",
     job: "Workingtech",
     date: "Sep 2025 – Nov 2025",
     contents: [
-      "Worked on daily front-end and back-end development tasks (React, Redux, Redux Toolkit, Node.js).",
+      "Worked on daily front-end tasks (React, Redux, Redux Toolkit, React Query, Cypress).",
       "Collaborated with team members to complete assigned features on time, ensuring code quality and maintainability.",
       "Contributed to testing processes using Cypress and unit tests to ensure application reliability.",
       "Gained experience in practical project workflows, version control, and agile development methodologies.",
@@ -315,53 +315,4 @@ export const experiences = [
     ],
   },
 ];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
-];
+
