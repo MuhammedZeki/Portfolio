@@ -292,7 +292,7 @@ export const mySocials = [
 export const experiences = [
   {
     title: "Intern / FrontEnd Developer",
-    job: "Workingtech",
+    job: "Workintech",
     date: "Sep 2025 – Nov 2025",
     contents: [
       "Worked on daily front-end tasks (React, Redux, Redux Toolkit, React Query, Cypress).",
