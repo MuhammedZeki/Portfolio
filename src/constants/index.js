@@ -41,12 +41,12 @@ export const myProjects = [
     id: 2,
     title: "Authentication & Authorization System",
     description:
-      "A secure authentication and authorization system built with Node.js, Express, and React, providing seamless user management and role-based access control (RBAC).",
+      "Secure auth system with Node.js, Express, and React, featuring smooth user management and RBAC.",
     subDescription: [
       "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
       "Implemented role-based access control (RBAC) for fine-grained user permissions.",
       "Implemented email verification and password reset flows using Mailtrap and Nodemailer.",
-      "Libraries used in the project: bcryptjs, cookie-parser, cors, crypto, express, jsonwebtoken, mailtrap, mongoose, framer-motion, lucide-react, react, zustand.",
+      "Libraries used in the project: bcryptjs, cookie-parser, crypto, jsonwebtoken, mailtrap, mongoose, framer-motion, zustand.",
     ],
     href: "https://github.com/MuhammedZeki/Mern-Advanced-Auth",
     logo: "",
