@@ -124,7 +124,7 @@ export const myProjects = [
       "User registration, login, and password reset implemented securely with Firebase Authentication.",
       "Notes are stored securely in Firebase Firestore and synchronized in real-time.",
       "Modern and responsive user interface built with React and Tailwind CSS.",
-      "Libraries used in the project: @tailwindcss/vite, @tanstack/react-query, date-fns, firebase, react, react-dom, react-hook-form, react-icons, react-router-dom, react-toastify.",
+      "Libraries used in the project: @tailwindcss/vite, @tanstack/react-query, date-fns, firebase, react-hook-form, react-router-dom, react-toastify.",
     ],
     href: "https://github.com/MuhammedZeki/Note-taking-App",
     logo: "",
@@ -162,8 +162,7 @@ export const myProjects = [
       "Weather data fetched from Open-Meteo API and Geocoding API using Axios.",
       "Smooth and fast page navigation implemented with React Router.",
       "Real-time notifications and alerts displayed using React Hot Toast.",
-      "Libraries used in the project: axios, react, react-dom, react-hot-toast, react-router-dom.",
-      "Development tools used: @eslint/js, @types/react, @types/react-dom, @vitejs/plugin-react, cypress, eslint, eslint-plugin-react-hooks, vite.",
+      "Libraries used in the project: axios, react, react-dom, react-hot-toast, react-router-dom, cypress"
     ],
     href: "https://github.com/MuhammedZeki/WeatherApp",
     demo: "https://weatherstream.netlify.app/",
