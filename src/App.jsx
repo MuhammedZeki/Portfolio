@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./sections/About";
+import Experiences from "./sections/Experiences";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/navbar";
 import Projects from "./sections/Projects";
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
+      <Experiences />
     </div>
   );
 };
