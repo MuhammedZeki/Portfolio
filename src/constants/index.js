@@ -5,11 +5,10 @@ export const myProjects = [
     description:
       "A modern e-commerce application that allows users to browse products, add them to the cart, and complete purchases. Includes a fully-featured admin panel for managing products and orders.",
     subDescription: [
-      "Built a responsive and scalable web application using Node.js and React, prioritizing smooth user experience.",
+      "Built a responsive and scalable web application using Node.js and React",
       "Secure authentication and database management integrated with Node.js backend.",
       "Developed a powerful admin panel to efficiently manage products, categories, and orders.",
-      "Implemented shopping cart functionality, product filtering, and search features for enhanced usability.",
-      "Libraries used in the project: antd, axios, react, react-dom, react-quill, react-redux, react-router-dom, react-slick, recharts, slick-carousel.",
+      "Libraries used in the project: antd, react, react-dom, react-redux, react-slick, recharts, slick-carousel.",
     ],
     href: "https://github.com/MuhammedZeki/E-Commers",
     demo: "",
@@ -46,10 +45,8 @@ export const myProjects = [
     subDescription: [
       "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
       "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a modern and responsive React frontend using Tailwind CSS.",
-      "Connected to a secure MongoDB database using Mongoose for user data storage.",
       "Implemented email verification and password reset flows using Mailtrap and Nodemailer.",
-      "Libraries used in the project: bcryptjs, cookie-parser, cors, crypto, dotenv, express, jsonwebtoken, mailtrap, mongoose, nodemon, axios, framer-motion, lucide-react, react, react-dom, react-hot-toast, react-router-dom, zustand.",
+      "Libraries used in the project: bcryptjs, cookie-parser, cors, crypto, express, jsonwebtoken, mailtrap, mongoose, framer-motion, lucide-react, react, zustand.",
     ],
     href: "https://github.com/MuhammedZeki/Mern-Advanced-Auth",
     logo: "",
@@ -87,10 +84,8 @@ export const myProjects = [
     subDescription: [
       "Real-time messaging implemented using Socket.io and Socket.io-client.",
       "User authentication and authorization handled with bcryptjs and JSON Web Token (JWT).",
-      "Modern and responsive React frontend for an enhanced user experience.",
-      "Messages and user data securely stored using MongoDB and Mongoose.",
       "Cloudinary integration for media (image/video) upload and management.",
-      "Libraries used in the project: bcryptjs, cloudinary, cookie-parser, cors, dotenv, express, jsonwebtoken, mongoose, nodemon, socket.io, axios, lucide-react, react, react-dom, react-hot-toast, react-router-dom, socket.io-client, zustand.",
+      "Libraries used in the project: bcryptjs, cloudinary, cookie-parser, express, jsonwebtoken, mongoose, socket.io, react-hot-toast, socket.io-client, zustand.",
     ],
     href: "https://github.com/MuhammedZeki/Chat-App",
     logo: "",
