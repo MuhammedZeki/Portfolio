@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "motion/react";
 const Alert = ({ type, text }) => {
   const alertVarients = {
