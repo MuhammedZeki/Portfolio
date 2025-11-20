@@ -1,5 +1,121 @@
 export const myProjects = [
   {
+    id: 3,
+    title: "Real-Time Chat Application",
+    description:
+      "A secure chat application built with Node.js, Express, and React, allowing users to send and receive messages in real-time.",
+    subDescription: [
+      "Real-time messaging implemented using Socket.io and Socket.io-client.",
+      "User authentication and authorization handled with bcryptjs and JSON Web Token (JWT).",
+      "Cloudinary integration for media (image/video) upload and management.",
+      "Libraries used in the project: bcryptjs, cloudinary, cookie-parser, express, jsonwebtoken, mongoose, socket.io, react-hot-toast, socket.io-client, zustand.",
+    ],
+    href: "https://github.com/MuhammedZeki/Chat-App",
+    logo: "",
+    demo: "https://chat-app-2-0njk.onrender.com/",
+    image: "/assets/projects/chatapp.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Cloudinary",
+        path: "/assets/logos/clod.svg",
+      },
+      {
+        id: 3,
+        name: "Jwt",
+        path: "/assets/logos/jwt.svg",
+      },
+      {
+        id: 4,
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Note-Taking Application",
+    description:
+      "A modern web application built with React and Firebase, allowing users to securely create, manage, and track their notes.",
+    subDescription: [
+      "Form management handled efficiently using React Hook Form.",
+      "User registration, login, and password reset implemented securely with Firebase Authentication.",
+      "Notes are stored securely in Firebase Firestore and synchronized in real-time.",
+      "Modern and responsive user interface built with React and Tailwind CSS.",
+      "Libraries used in the project: @tailwindcss/vite, @tanstack/react-query, date-fns, firebase, react-hook-form, react-router-dom, react-toastify.",
+    ],
+    href: "https://github.com/MuhammedZeki/Note-taking-App",
+    logo: "",
+    demo: "https://zekiwithnoteapp.netlify.app/",
+    image: "/assets/projects/noteapp.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 3,
+        name: "Firebase",
+        path: "/assets/logos/firebase.svg",
+      },
+      {
+        id: 4,
+        name: "Vite",
+        path: "/assets/logos/vitejs.svg",
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Twitter Clone",
+    description:
+      "A modern social media application built with the MERN stack, allowing users to post tweets, like and comment, follow other users, and receive real-time notifications. Includes secure authentication and responsive design.",
+
+    subDescription: [
+      "Developed a responsive and scalable web application using Node.js, Express, MongoDB, and React.",
+      "Implemented secure user authentication and session management with JWT and bcrypt.",
+      "Built real-time features like notifications and likes using WebSockets and efficient state management.",
+      "Libraries & tools used in the project: react, react-dom, redux, redux-toolkit, react-router-dom, tailwindcss, cloudinary.",
+    ],
+    href: "https://github.com/MuhammedZeki/Twitter-clone",
+    demo: "https://twitter-clone-s4yb.onrender.com/",
+    logo: "",
+    image: "/assets/projects/anasayfa.png",
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Jwt",
+        path: "/assets/logos/jwt.svg",
+      },
+      {
+        id: 3,
+        name: "NodeJs",
+        path: "/assets/logos/node.svg",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
+      },
+    ],
+  },
+  {
     id: 1,
     title: "E-commerce Platform",
     description:
@@ -76,83 +192,8 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 3,
-    title: "Real-Time Chat Application",
-    description:
-      "A secure chat application built with Node.js, Express, and React, allowing users to send and receive messages in real-time.",
-    subDescription: [
-      "Real-time messaging implemented using Socket.io and Socket.io-client.",
-      "User authentication and authorization handled with bcryptjs and JSON Web Token (JWT).",
-      "Cloudinary integration for media (image/video) upload and management.",
-      "Libraries used in the project: bcryptjs, cloudinary, cookie-parser, express, jsonwebtoken, mongoose, socket.io, react-hot-toast, socket.io-client, zustand.",
-    ],
-    href: "https://github.com/MuhammedZeki/Chat-App",
-    logo: "",
-    demo: "",
-    image: "/assets/projects/chatapp.png",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "Cloudinary",
-        path: "/assets/logos/clod.svg",
-      },
-      {
-        id: 3,
-        name: "Jwt",
-        path: "/assets/logos/jwt.svg",
-      },
-      {
-        id: 4,
-        name: "Javascript",
-        path: "/assets/logos/javascript.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Note-Taking Application",
-    description:
-      "A modern web application built with React and Firebase, allowing users to securely create, manage, and track their notes.",
-    subDescription: [
-      "Form management handled efficiently using React Hook Form.",
-      "User registration, login, and password reset implemented securely with Firebase Authentication.",
-      "Notes are stored securely in Firebase Firestore and synchronized in real-time.",
-      "Modern and responsive user interface built with React and Tailwind CSS.",
-      "Libraries used in the project: @tailwindcss/vite, @tanstack/react-query, date-fns, firebase, react-hook-form, react-router-dom, react-toastify.",
-    ],
-    href: "https://github.com/MuhammedZeki/Note-taking-App",
-    logo: "",
-    demo: "https://zekiwithnoteapp.netlify.app/",
-    image: "/assets/projects/noteapp.png",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 3,
-        name: "Firebase",
-        path: "/assets/logos/firebase.svg",
-      },
-      {
-        id: 4,
-        name: "Vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
+
+
   {
     id: 5,
     title: "Weather Application",

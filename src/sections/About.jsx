@@ -8,7 +8,7 @@ const About = () => {
   const grid2Container = useRef();
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/GüncelCv.pdf";
+    link.href = "/web.pdf";
     link.download = "Muhammed-Zeki-CV.pdf";
     link.click();
   };
